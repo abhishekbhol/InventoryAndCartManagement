@@ -1,0 +1,17 @@
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\IMSTestCases.deps.json
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\IMSTestCases.runtimeconfig.json
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\IMSTestCases.runtimeconfig.dev.json
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\IMSTestCases.dll
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\IMSTestCases.pdb
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.dll
+D:\Projects\InventoryAndCartManagement\IMSTestCases\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.pdb
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.csprojAssemblyReference.cache
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.csproj.CoreCompileInputs.cache
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.AssemblyInfoInputs.cache
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.AssemblyInfo.cs
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.csproj.CopyComplete
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.dll
+D:\Projects\InventoryAndCartManagement\IMSTestCases\obj\Debug\netcoreapp2.2\IMSTestCases.pdb

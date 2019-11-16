@@ -1,0 +1,10 @@
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.deps.json
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.runtimeconfig.json
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.runtimeconfig.dev.json
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.dll
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\bin\Debug\netcoreapp2.2\InventoryAndCartManagement.pdb
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\obj\Debug\netcoreapp2.2\InventoryAndCartManagement.csproj.CoreCompileInputs.cache
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\obj\Debug\netcoreapp2.2\InventoryAndCartManagement.AssemblyInfoInputs.cache
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\obj\Debug\netcoreapp2.2\InventoryAndCartManagement.AssemblyInfo.cs
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\obj\Debug\netcoreapp2.2\InventoryAndCartManagement.dll
+D:\Projects\InventoryAndCartManagement\InventoryAndCartManagement\obj\Debug\netcoreapp2.2\InventoryAndCartManagement.pdb
