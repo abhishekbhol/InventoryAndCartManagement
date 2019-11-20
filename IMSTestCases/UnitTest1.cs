@@ -73,17 +73,21 @@ namespace Tests
 
             Assert.AreEqual(6, inv.Count);
 
-            var res = fd.Search(Rating.five_star.ToString());
+            var res = fd.Search(RatingEnum.five_star);
 
             Assert.AreEqual(2, res.Count);
 
-            res = fd.Search(Brands.Amul.ToString());
+            res = fd.Search(BrandsEnum.Amul);
 
             Assert.AreEqual(1, res.Count);
 
-            res = fd.Search(Brands.Britania.ToString());
+            res = fd.Search(CategoryEnum.shampoo);
 
             Assert.AreEqual(2, res.Count);
+
+            res = fd.Search(BrandsEnum.Britania, CategoryEnum.milk);
+
+            Assert.AreEqual(1, res.Count);
 
         }
 
@@ -92,11 +96,11 @@ namespace Tests
         {
             fd.AddInventory(new Product
             {
-                brand = Brands.Amul,
-                category = Category.milk,
+                brand = BrandsEnum.Amul,
+                category = CategoryEnum.milk,
                 price = 1,
                 quantity = 5,
-                rating = Rating.four_star,
+                rating = RatingEnum.four_star,
                 sla = new TimeSpan(0, 0, 1),
 
             });
@@ -133,22 +137,22 @@ namespace Tests
         {
             fd.AddInventory(new Product
             {
-                brand = Brands.Amul,
-                category = Category.milk,
+                brand = BrandsEnum.Amul,
+                category = CategoryEnum.milk,
                 price = 1,
                 quantity = 5,
-                rating = Rating.four_star,
+                rating = RatingEnum.four_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
 
             fd.AddInventory(new Product
             {
-                brand = Brands.Britania,
-                category = Category.bread,
+                brand = BrandsEnum.Britania,
+                category = CategoryEnum.bread,
                 price = 5,
                 quantity = 6,
-                rating = Rating.five_star,
+                rating = RatingEnum.five_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
@@ -158,66 +162,66 @@ namespace Tests
         {
             fd.AddInventory(new Product
             {
-                brand = Brands.Amul,
-                category = Category.milk,
+                brand = BrandsEnum.Amul,
+                category = CategoryEnum.milk,
                 price = 1,
                 quantity = 5,
-                rating = Rating.four_star,
+                rating = RatingEnum.four_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
 
             fd.AddInventory(new Product
             {
-                brand = Brands.Britania,
-                category = Category.milk,
+                brand = BrandsEnum.Britania,
+                category = CategoryEnum.milk,
                 price = 1,
                 quantity = 5,
-                rating = Rating.four_star,
+                rating = RatingEnum.four_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
 
             fd.AddInventory(new Product
             {
-                brand = Brands.Britania,
-                category = Category.bread,
+                brand = BrandsEnum.Britania,
+                category = CategoryEnum.bread,
                 price = 5,
                 quantity = 6,
-                rating = Rating.five_star,
+                rating = RatingEnum.five_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
 
             fd.AddInventory(new Product
             {
-                brand = Brands.ClinicPlus,
-                category = Category.shampoo,
+                brand = BrandsEnum.ClinicPlus,
+                category = CategoryEnum.shampoo,
                 price = 3,
                 quantity = 7,
-                rating = Rating.three_star,
+                rating = RatingEnum.three_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
 
             fd.AddInventory(new Product
             {
-                brand = Brands.HeadAndShoulders,
-                category = Category.shampoo,
+                brand = BrandsEnum.HeadAndShoulders,
+                category = CategoryEnum.shampoo,
                 price = 4,
                 quantity = 2,
-                rating = Rating.five_star,
+                rating = RatingEnum.five_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });
 
             fd.AddInventory(new Product
             {
-                brand = Brands.HideAndSeek,
-                category = Category.buiscuits,
+                brand = BrandsEnum.HideAndSeek,
+                category = CategoryEnum.buiscuits,
                 price = 1,
                 quantity = 5,
-                rating = Rating.three_star,
+                rating = RatingEnum.three_star,
                 sla = new TimeSpan(0, 10, 0),
 
             });

@@ -10,11 +10,16 @@ namespace InventoryAndCartManagement
         public List<Product> inventory;
         public List<User> userList;
         public User activeUser;
+        public SearchImpl search;
 
         public void setUp()
         {
             inventory = new List<Product>();
             userList = new List<User>();
+            search = new SearchImpl();
+            search.attach(new Brands());
+            search.attach(new Category());
+            search.attach(new Rating());
         }
 
         /// <summary>
@@ -31,7 +36,7 @@ namespace InventoryAndCartManagement
                 // update the price and rating of order batch
                 prod.quantity = prod.quantity + prodExists.quantity;
 
-                if (prod.rating == Rating.not_defined)
+                if (prod.rating == RatingEnum.not_defined)
                     prod.rating = prodExists.rating;
 
                 if (prod.sla == null)
@@ -82,36 +87,13 @@ namespace InventoryAndCartManagement
         /// <summary>
         /// Searching on the basis of Brand, Category, Rating and Quantity
         /// </summary>
-        /// <param name="criteria"></param>
+        /// <param name="list"></param>
         /// <returns></returns>
-        public List<Product> Search(string criteria)
+        public List<Product> Search(params object[] list)
         {
-
-            if (Enum.TryParse(criteria, out Brands b))
-            {
-                return inventory.Where(p => p.brand == b).ToList();
-            }
-
-            if (Enum.TryParse(criteria, out Category c))
-            {
-                return inventory.Where(p => p.category == c).ToList();
-            }
-
-            if (Enum.TryParse(criteria, out Rating res))
-            {
-                return inventory.Where(p => p.rating == res).ToList();
-            }
-
-            int quantity = 0;
-
-            if (Int32.TryParse(criteria, out quantity))
-            {
-                return inventory.Where(p => p.quantity == quantity).ToList();
-            }
-
-            return null;
-
+            return search.Search(inventory, list);
         }
+
 
         /// <summary>
         /// Adding a product to cart
